@@ -212,7 +212,3 @@ Response:
 - All database queries use prepared statements.
 - The portal pages check the logged-in user in the browser. The API itself does not check sessions or tokens, so this is suitable for a course project or local use. For real use, add session or token checks in PHP.
 - `api_requests.log` is created by the logging middleware. Add it to `.gitignore`.
-
-## Author
-
-[Your name], [your course / university]
